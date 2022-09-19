@@ -1,0 +1,2903 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*============ Acount bar =============*/
+
+.acount-icon a {
+    text-decoration: none;
+    position: relative;
+    color: #6e7673;
+    font-size: 18px;
+    margin: 10px;
+}
+.acount-icon i {
+    font-size: 16px;
+    color: #6e7673;
+}
+.acount-icon i:hover {
+    color: #ffc107;
+    transition: all .3s ease;
+    cursor: pointer;
+}
+.acount p {
+    position: relative;
+    margin: 0;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #6e7673;
+}
+.acount a {
+    position: relative;
+    text-decoration: none;
+    color: #6e7673;
+    font-family: 'Roboto';
+    font-weight: 400;
+}
+.acount a:hover {
+    color: #49a760;
+    transition: all .3s ease;
+    cursor: pointer;
+}
+.timer i {
+    font-size: 16px;
+    margin-right: 5px;
+    color: #49a760;
+}
+.acount-bar {
+    position: relative;
+    background: #f6f5f2;
+    padding: 10px 0px;
+}
+.acount {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*=========== Navigation css Start ============*/
+/*
+.contain {
+  display: inline-block;
+  cursor: pointer;
+  display: none;
+}
+.bar1, .bar2, .bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: #333;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+.change .bar1 {
+  transform: translate(0, 11px) rotate(-45deg);
+}
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+  transform: translate(0, -11px) rotate(45deg);
+} */
+.navbar::after {
+    content: "";
+    width: 100%;
+    height: 16px;
+    position: absolute;
+    bottom: -15px;
+    left: 0;
+    background-image: url(../images/ripped-paper-header-1.png);
+    background-position: center center;
+    background-size: cover;
+}
+.navbar {
+    position: relative;
+    background: #fff;
+    box-shadow: 0px 10px 60px 0px rgb(0 0 0 / 10%);
+    -webkit-box-shadow: 0px 10px 60px 0px rgb(0 0 0 / 10%);
+    padding: 15px 0px!important;
+}
+.logo {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    object-fit: cover;
+}
+.collapse {
+    justify-content: center;
+    align-items: center;
+}
+.nav-item {
+    margin-right: 20px;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    border-radius: 0px 0px 5px 5px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    padding: 10px 14px;
+    text-decoration: none;
+    display: block;
+    font-size: 17px;
+    font-family: 'Roboto';
+    color: #255946;
+    font-weight: 500;
+}
+.dropdown-content a:hover {
+    background-color: #ffc107;
+    color: #fff;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.nav-item:hover .dropdown-content {display: block;}
+
+.nav-link {
+    position: relative;
+    font-size: 17px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    color: #6e7673!important;
+}
+.nav-link:hover {
+    color: #255946!important;
+    transition: all .3s ease;
+    cursor: pointer;
+}
+.head-icon ul {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.head-icon ul li {
+    display: inline-block;
+    margin: 5px;
+}
+.head-icon {
+  padding-right: 25px;
+}
+.head-icon i {
+    color: #255946;
+    font-size: 18px;
+}
+.btn-rx {
+    background-color: #f7c35f;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+.btn-rx:hover {
+    background: #255946;
+    color: #fff;
+    transition: all .3s ease;
+}
+.btn-rx a {
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    font-size: 15px;
+    font-family: 'Roboto';
+    font-weight: 500;
+}
+.btn-rx a:hover {
+    color: #fff;
+    transition: all .3s ease;
+    cursor: pointer;
+}
+.btn-rx .fa {
+    font-size: 20px;
+    color: #fff;
+    padding-right: 5px;
+}
+
+/*============== Navigation css End ==============*/
+
+/*=============== Banner portaion Css Start ==============*/
+
+.banner {
+    position: relative;
+}
+.banner-contant {
+    position: absolute;
+    top: 45%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+}
+.welcome {
+    position: relative;
+    margin: 0;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 3;
+}
+.banner-contant h1 {
+    position: relative;
+    margin: 0;
+    font-size: 80px;
+    font-family: 'Kalam', cursive;
+    font-weight: 700;
+    color: #fff;
+    line-height: 1.3;
+}
+.banner-contant p {
+    position: relative;
+    margin: 0;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+}
+.discover-btn {
+    position: relative;
+    margin-top: 50px;
+}
+.discover-btn a {
+    position: relative;
+    text-decoration: none;
+    font-family: 'Roboto';
+    color: #fff;
+    background-color: #f7c35f;
+    padding: 25px 30px;
+    border-radius: 5px;
+    font-weight: 500;
+}
+.discover-btn a:hover {
+    background-color: #fff;
+    color: #f7c35f;
+    transition: all .3s ease;
+    cursor: pointer;
+}
+#farmerbanner .owl-dots {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    transform: translatey(-200%);
+}
+#farmerbanner .owl-dots .owl-dot {
+    width: 15px;
+    height: 15px;
+    background: #f7c35f;
+    border-radius: 50%;
+    margin: 5px;
+    border: solid 2px #fff;
+}
+#farmerbanner .owl-dots .owl-dot.active {
+    background-color: #fff;
+}
+
+/*=============== Banner portaion Css End ==============*/
+
+/*============= Better Agriculture Css Start =============*/
+
+.first-wrap {
+  position: relative;
+  background: #f7c35f;
+  padding: 100px 50px;
+  margin-bottom: 80px;
+}
+.img-start {
+    position: relative;
+}
+.img-start img {
+    position: relative;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 7px;
+}
+.img-start:hover img {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+    cursor: pointer;
+    overflow-x: hidden;
+    transition: all .5s ease;
+}
+.up-img {
+    width: calc(80% - 40px);
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    -webkit-transform: translateX(-50%) translateY(50%);
+    transform: translateX(-50%) translateY(50%);
+    background-color: #fff;
+    border-radius: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    -webkit-transition: all 500ms ease;
+    transition: all 500ms ease;
+    box-shadow: 0px 10px 60px 0px rgb(0 0 0 / 10%);
+}
+.up-img h3 {
+    position: relative;
+    margin: 0;
+    font-size: 24px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    color: #255946;
+    text-align: center;
+}
+.up-img h3:hover {
+    color: #f7c35f;
+    transition: all .5s ease-in-out;
+    cursor: pointer;
+}
+.first-wrap::before {
+    content: "";
+    width: 100%;
+    height: 16px;
+    background-image: url(../images/ripped-paper-primary-up.png);
+    position: absolute;
+    top: -14px;
+    left: 0;
+    z-index: 10;
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+    background-size: auto;
+}
+.better-img {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.better-img:hover {
+   position: relative;filter: blur(2px);
+   transition: all .5s ease;
+   cursor: pointer;
+}
+.Welcome-para {
+    margin: 0;
+    position: relative;
+    line-height: 4;
+    font-family: 'Roboto';
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #808080;
+    display: flex;
+    align-items: center;
+}
+.better-feture {
+    position: relative;
+    background-image: url(../images/about-bg-icon-1-1.png);
+    background-position: right;
+    background-size: auto;
+    background-repeat: no-repeat;
+    padding-bottom: 80px;
+}
+.agr-feture {
+    position: relative;
+    padding: 25px!important;
+}
+.Welcome-para::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url(../images/loader.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.loader {
+    position: relative;
+    width: 30px;
+    height: 30;
+    margin-right: 20px;
+}
+.agr-feture {
+    position: relative;
+}
+.agr-feture h2 {
+    position: relative;
+    margin: 0;
+    font-size: 45px;
+    font-weight: 700;
+    color: #255946;
+    line-height: 1.3;
+    padding-bottom: 40px;
+}
+.agr-feture h4 {
+    position: relative;
+    margin: 0;
+    font-family: 'Kalam';
+    font-weight: 500;
+    color: #f7c35f;
+    padding-right: 50px;
+    line-height: 1.3;
+    padding-bottom: 30px;
+}
+.bottom-aparment {
+    position: relative;
+    margin: 30px 0px;
+}
+.better-para {
+    position: relative;
+    margin: 0;
+    font-size: 17px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    color: #6e7673;
+    padding-right: 118px;
+    line-height: 1.8;
+}
+.farmer-log {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 25px 0px!important;
+    border-top: solid 1px #b7b7b7;
+    border-bottom: solid 1px #b7b7b7;
+    position: relative;
+    justify-content: center;
+}
+.farmer-log i {
+    font-size: 45px;
+    color: #49a760;
+    margin-right: 20px;
+}
+.farmer-log i:hover {
+    color: #f7c35f;
+    transition: all .3s ease;
+    cursor: pointer;
+}
+.farmer-log p {
+    font-size: 20px;
+    font-family: 'Roboto';
+    font-weight: 700;
+    margin: 0;
+    color: #255946;
+}
+.farmer-log p:hover {
+    color: #49a760;
+    transition: all .3s ease;
+    cursor: pointer;
+}
+.better-btn {
+    position: relative;
+    margin-top: 50px;
+}
+.better-btn a {
+    position: relative;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    color: #fff;
+    background: #f7c35f;
+    padding: 20px 25px;
+    border-radius: 5px;
+}
+.better-btn a:hover {
+    position: relative;
+    background-color: #49a760;
+    color: #fff;
+    transition: all .3s ease;
+}
+
+/*================== Offering portaion css start ====================*/
+
+.offering-title img {
+    position: relative;
+    width: 30px;
+    height: 32px;
+}
+.offering-title p {
+    position: relative;
+    margin: 0;
+    font-family: 'Roboto';
+    font-weight: 700;
+    color: #808080;
+    letter-spacing: 2px;
+    font-size: 16px;
+    line-height: 4;
+}
+.offering-title h1 {
+    position: relative;
+    margin: 0;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 48px;
+    color: #255946;
+    padding-bottom: 50px;
+}
+.off-img  {
+    position: relative;
+    overflow: hidden;
+    transition: all .5s ease-in-out;
+}
+.off-img img {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px 5px 0px 0px;
+}
+.off-img:hover img {
+    transform: scale(1.2);
+    transition: all .5s ease-in-out;
+    cursor: pointer;
+}
+
+.off-icon {
+    position: relative;
+    text-align: center;
+    margin-top: -15%;
+}
+.fa-tractor {
+    position: relative;
+    font-size: 40px;
+    font-family: 'FontAwesome';
+    background-color: #49a760;
+    padding: 20px 16px;
+    border-radius: 50%;
+    color: #fff;
+    border: solid 5px #fff;
+}
+.fa-tractor:hover {
+    background-color: #f7c35f;
+    color: #fff;
+    transition: all .5s ease-in-out;
+    cursor: pointer;
+}
+.fa-cutlery {
+    position: relative;
+    font-size: 40px!important;
+    font-family: 'FontAwesome';
+    background-color: #49a760;
+    padding: 21px 26px;
+    border-radius: 50%;
+    color: #fff;
+    border: solid 5px #fff;
+}
+.fa-cutlery:hover {
+    background-color: #f7c35f;
+    color: #fff;
+    transition: all .5s ease-in-out;
+    cursor: pointer;
+}
+.fa-coffee {
+    position: relative;
+    font-size: 40px!important;
+    font-family: 'FontAwesome';
+    background-color: #49a760;
+    padding: 20px 20px;
+    border-radius: 50%;
+    color: #fff;
+    border: solid 5px #fff;
+}
+.fa-coffee:hover {
+    background-color: #f7c35f;
+    color: #fff;
+    transition: all .5s ease-in-out;
+    cursor: pointer;
+}
+.fa-carrot {
+    position: relative;
+    font-size: 40px!important;
+    font-family: 'FontAwesome';
+    background-color: #49a760;
+    padding: 21px 22px;
+    border-radius: 50%;
+    color: #fff;
+    border: solid 5px #fff;
+}
+.fa-carrot:hover {
+    background-color: #f7c35f;
+    color: #fff;
+    transition: all .5s ease-in-out;
+    cursor: pointer;
+}
+.off-contant h4 {
+    position: relative;
+    margin: 0;
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Roboto';
+    font-weight: 600;
+    line-height: 1.4;
+    color: #255946;
+    padding: 15px 0px 10px 0px;
+}
+.off-contant h4:hover {
+    color: #f7c35f;
+    transition: all .5s ease-in-out;
+    cursor: pointer;
+}
+.off-contant p {
+    position: relative;
+    font-size: 17px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    color: gray;
+    text-align: center;
+    padding: 0px 57px;
+    line-height: 1.6;
+}
+.offering-wraper {
+    position: relative;
+    background: #fff;
+    box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 5%);
+    border-radius: 5px;
+    padding-bottom: 15px;
+}
+.offering-wraper:hover {
+    position: relative;
+    border-bottom: solid 3px #f7c35f;
+    box-shadow: 0px 0px 20px 0px rgb(0 0 0 / 10%);
+    cursor: pointer;
+}
+.offering {
+    position: relative;
+    padding: 100px 0px 90px 0px;
+    background: #f6f5f2;
+}
+.offering::before {
+    content: "";
+    position: absolute;
+    top: -16px;
+    left: 0;
+    width: 100%;
+    height: 16px;
+    background-image: url(../images/ripped-paper-gray-up.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    transform: rotate(180deg);
+    z-index: 99;
+}
+.offering::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -16px;
+    width: 100%;
+    height: 16px;
+    background-image: url(../images/ripped-paper-gray-up.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    transform: rotate(360deg);
+    z-index: 99;
+}
+.better-over {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background-color: rgb(0 0 0 / 20%);
+    overflow: hidden;
+    width: 100%;
+    height:0;
+    transition: .5s ease;
+}
+.off-img:hover .better-over {
+    bottom: 0;
+    height: 100%;
+}
+
+/*============== Better Agriculture Css End ===============*/
+
+/*============= Latest project CSS Start =============*/
+
+.latest-title img {
+    position: relative;
+    width: 30px;
+    height: 32px;
+}
+.latest-title p {
+    position: relative;
+    margin: 0;
+    font-family: 'Roboto';
+    font-weight: 700;
+    color: #808080;
+    letter-spacing: 2px;
+    font-size: 16px;
+    line-height: 4;
+    text-transform: uppercase;
+}
+.latest-title h1 {
+    position: relative;
+    margin: 0;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 48px;
+    color: #255946;
+    padding-bottom: 0px;
+}
+.letest-slide {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    transition: all .5s ease-in-out;
+}
+.letest-slide:hover img {
+    transform: scale(1.2);
+    transition: all .5s ease-in-out;
+}
+.letest-slide img {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+#letest .owl-dots {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    padding: 22px 0px;
+}
+#letest .owl-dots .owl-dot {
+    width: 15px;
+    height: 15px;
+    background-color: #cdcdcd;
+    border-radius: 50%;
+    margin: 5px;
+}
+#letest .owl-dots .owl-dot.active {
+    background-color: #1f4e3d;
+}
+.latest-project {
+    position: relative;
+    padding: 110px 0px 140px 0px;
+}
+.lover-contant {
+    position: absolute;
+    left: 0;
+    bottom: -100px;
+    background: rgba(255, 192, 0, 0.8);
+    height: 90px;
+    width: 100%;
+    opacity: 0;
+    transition: all 0.5s ease 0s;
+}
+.letest-slide:hover .lover-contant {
+   opacity: 1;
+   bottom: 0;
+   cursor: pointer;
+}
+.lover-contant h3 {
+   position: relative;
+   width: auto;
+   display: flex;
+   justify-content: flex-start;
+   align-items: baseline;
+   padding: 20px 0px 0px 25px;
+   text-transform: capitalize;
+   color: #fff;
+   font-size: 26px;
+   font-family: 'Roboto';
+   font-weight: 500;
+}
+.lover-contant h3 i {
+   font-size: 22px;
+   margin-left: 20px;
+   color: #fff;
+   border: solid 2px #fff;
+   padding: 15px;
+   border-radius: 50%;
+   transition: all .5s ease-in-out;
+}
+.lover-contant h3 i:hover {
+   background-color: #fff;
+   color: #ffc000;
+   transition: all .5s ease-in-out;
+   cursor: pointer;
+}
+
+/*================== Latest project CSS End  ==================*/
+
+/*=============== High Quality Products CSS Start ===============*/
+
+.high-first img {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+    z-index: 99;
+    margin-top: -20%;
+}
+.high-first {
+    position: relative;
+    padding: 0!important;
+}
+.high-last {
+    position: relative;
+    padding: 0!important;
+}
+.high-last img {
+    width: 100%;
+    height: 60%;
+    object-fit: cover;
+    margin-left: -58px;
+    margin-top: 110px;
+    border-radius: 0px 5px 5px 0px;
+    position: relative;
+    z-index: 9;
+}
+.product h2 {
+    position: relative;
+    margin: 0;
+    font-size: 52px;
+    font-family: 'Kalam';
+    font-weight: 800;
+    padding: 100px 50px 30px 0px;
+    color: #fff;
+    line-height: 1.4;
+    z-index: 9;
+}
+.high-btn {
+    position: relative;
+    padding-top: 30px;
+}
+.high-btn a {
+    position: relative;
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 18px;
+    background: #f7c35f;
+    color: #fff;
+    padding: 23px 30px;
+    border-radius: 5px;
+    text-transform: capitalize;
+    transition: all .5s ease-in-out;
+    z-index: 9;
+}
+.high-btn a:hover {
+    color: #255946;
+    background-color: #fff;
+    cursor: pointer;
+    position: relative;
+}
+.high-quality {
+    position: relative;
+    background-image: url(../images/cta-1-bg-1.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    padding-bottom: 30px;
+    margin: 100px 0px 0px 0;
+}
+.high-quality::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    background: rgb(73 167 96 / 90%);
+}
+
+/*============== High Quality Products CSS End ===============*/
+
+/*=============== Testimonials CSS start ================*/
+
+.testimonials::before {
+    content: "";
+    position: absolute;
+    top: -16px;
+    left: 0;
+    width: 100%;
+    height: 16px;
+    background-image: url(../images/ripped-paper-testimonials-1.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    transform: rotate(180deg);
+}
+.testimonials {
+    position: relative;
+    padding: 100px 0 150px 0;
+    background-image: url(../images/testimonials-full.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    z-index: 9;
+}
+.clint-img {
+    position: relative;
+    display: flex!important;
+    justify-content: center;
+    align-items: center;
+    padding: 22px 0;
+}
+.clint-img img {
+    position: relative;
+    width: 85px!important;
+    height: 85px!important;
+    object-fit: cover;
+    margin: 10px;
+    border-radius: 50%;
+    border: solid 5px #fff;
+}
+.slide-icon {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slide-icon i {
+    position: relative;
+    font-size: 24px;
+    margin: 2px;
+    color: #f7c35f;
+    line-height: 4;
+}
+.slide-para p {
+    position: relative;
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    line-height: 2;
+    color: #fff;
+    padding: 0 217px;
+}
+.clint-name p {
+    position: relative;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    font-size: 22px;
+    font-family: 'Roboto';
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #fff;
+}
+.clint-name span {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-family: 'Roboto';
+    font-weight: 600;
+    letter-spacing: 3px;
+    line-height: 1.7;
+    color: #b9b9b9;
+}
+.testimonials-title h4 {
+    position: absolute;
+    top: 50%;
+    left: 12%;
+    transform: translateY(-50%) rotate(-90deg);
+    text-transform: uppercase;
+    font-size: 18px;
+    font-family: 'Roboto';
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin: 0;
+    color: #f7c35f;
+    z-index: 9;
+}
+#testimonials-slider .owl-dots {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%) rotate(-90deg);
+}
+#testimonials-slider .owl-dots .owl-dot {
+    width: 12px;
+    height: 12px;
+    background: #ffffff;
+    border-radius: 50%;
+    margin: 5px;
+}
+#testimonials-slider .owl-dots .owl-dot.active {
+    background-color: #f7c35f;
+}
+
+/*================= Testimonials CSS End =================*/
+
+/*=============== Latest News CSS start  ==============*/
+
+.news-title img {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    display: block;
+}
+.news-title  span {
+    position: relative;
+    font-size: 16px;
+    font-family: 'Roboto';
+    font-weight: 600;
+    letter-spacing: 2px;
+    line-height: 3;
+    color: gray;
+}
+.news-title h1 {
+    position: relative;
+    margin: 0;
+    font-size: 48px;
+    font-family: 'Roboto';
+    font-weight: 700;
+    line-height: 1.3;
+    color: #255946;
+}
+.news-title p {
+    position: relative;
+    margin: 0;
+    font-size: 18px;
+    font-family: 'Roboto';
+    text-align: left;
+    font-weight: 400;
+    line-height: 2;
+    color: #6e7673;
+    padding: 90px 50px 0px 0px;
+}
+.news-img {
+    position: relative;
+    overflow: hidden;
+    transition: all .5s ease-in-out;
+}
+.news-img img {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px 5px 0 0;
+}
+.news-img:hover img {
+     transform: scale(1.2);
+     transition: all .5s ease-in-out;
+     cursor: pointer;
+}
+.news-over {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background-color: rgb(0 0 0 / 20%);
+    overflow: hidden;
+    width: 100%;
+    height:0;
+    transition: .5s ease;
+}
+.news-img:hover .news-over {
+    bottom: 0;
+    height: 100%;
+}
+.nover-item {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+.nover-item i {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 100!important;
+}
+.news-date {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 40px;
+    align-items: center;
+    margin-top: -10%;
+}
+.news-date span {
+    position: relative;
+    display: block;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Roboto';
+    font-weight: 600;
+    margin: 0;
+    background: #49a760;
+    padding: 15px 25px;
+    border-radius: 50%;
+    color: #fff;
+    border: solid 5px #fff;
+    transition: all .5s ease-in-out;
+}
+.news-date span:hover {
+    background: #f7c35f;
+    color: #fff;
+    cursor: pointer;
+}
+.news-icon ul {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.news-icon ul li {
+    display: inline-block;
+    margin: 10px;
+    font-size: 16px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    color: #6e7673;
+}
+.news-icon ul li i {
+    font-size: 16px;
+    color: #49a760;
+    margin-right: 5px;
+}
+.news-sub h3 {
+    position: relative;
+    font-size: 28px;
+    font-family: 'Roboto';
+    font-weight: 600;
+    line-height: 1.4;
+    color: #255946;
+    transition: all.5s ease-in-out;
+}
+.news-sub h3:hover {
+    color: #49a760;
+    cursor: pointer;
+}
+.news-btn {
+    position: relative;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.news-btn a {
+    position: relative;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    background-color: #f7c35f;
+    padding: 15px 28px;
+    border-radius: 5px;
+    color: #fff;
+    transition: all .5s ease-in-out;
+}
+.news-btn a:hover {
+    background-color: #255946;
+    color: #fff;
+    cursor: pointer;
+}
+.news-icon {
+    position: relative;
+    padding-left: 20px;
+}
+.news-sub {
+    position: relative;
+    padding-left: 20px;
+}
+.news-wrap {
+    position: relative;
+    background: #fff;
+    box-shadow: 0px 0px 10px 0px rgb(0 0 0 /10%);
+    padding-bottom: 40px;
+}
+.horizantal {
+    width: 100%;
+    height: 1px;
+    background: #e9e7e2;
+    margin: 0 auto;
+}
+.news-super {
+    position: relative;
+    margin: 100px 0 80px 0;
+}
+.growth {
+    position: relative;
+    padding: 60px 0px 30px 0px;
+}
+.grow-img i {
+    font-size: 60px;
+    padding: 25px;
+    color: #49a760;
+    transition: all .5s ease-in-out;
+}
+.grow-img i:hover {
+    color: #f7c35f;
+    cursor: pointer;
+}
+.grow-contant h2 {
+    position: relative;
+    margin: 0;
+    font-size: 34px;
+    font-family: 'Roboto';
+    font-weight: 600;
+    color: #255946;
+    line-height: 2;
+    transition: all .5s ease-in-out;
+}
+.grow-contant h2:hover {
+    color: #49a760;
+    cursor: pointer;
+}
+.grow-contant p {
+    position: relative;
+    font-size: 18px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    line-height: 1.7;
+    color: #767676;
+}
+.grow-right {
+    position: relative;
+    text-align: end;
+}
+.grow-right img {
+    position: relative;
+    width: 85%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.grow-right::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: -60px;
+    width: 155px;
+    height: 25px;
+    background: #f7c35f;
+    border-radius: 5px;
+    transform: translatey(-50%) rotate(90deg);
+}
+.latest-news {
+    position: relative;
+    background: #e9e9e9;
+    padding: 100px 0px 50px 0px;
+}
+.latest-news::before {
+    content: "";
+    position: absolute;
+    top: -3px;
+    left: 0;
+    width: 100%;
+    height: 16px;
+    background-image: url(../images/ripped-paper-testimonials-1.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    transform: rotate(360deg);
+}
+
+/*================ Latest News CSS start ==================*/
+
+/*============== Leave us message Css Start ================*/
+
+.leave-img img {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    z-index: 9;
+}
+.leave-img:after {
+    content: "";
+    position: absolute;
+    top: -34px;
+    left: -28px;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: #e9e9e9;
+    border-radius: 50%;
+}
+.leave-img:before {
+    content: "";
+    position: absolute;
+    top: -52px;
+    left: -25px;
+    width: 150px;
+    height: 150px;
+    background: #49a760;
+    border-radius: 50%;
+    z-index: 1;
+}
+.leave-img {
+    position: relative;
+}
+.leav-contant {
+    padding-left: 30px;
+}
+.leav-contant img {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    display: block;
+}
+.leav-contant h2 {
+    position: relative;
+    margin: 0;
+    font-size: 48px;
+    font-family: 'Roboto';
+    font-weight: 800;
+    color: #255946;
+    line-height: 1.4;
+    padding-bottom: 30px;
+}
+.leav-contant span {
+    position: relative;
+    font-size: 16px;
+    font-family: 'Roboto';
+    font-weight: 600;
+    color: gray;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 3;
+}
+.leav-contant p {
+    position: relative;
+    margin: 0;
+    font-family: 'Roboto';
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 1.5;
+    color: gray;
+}
+.leav-edit {
+    width: 100%;
+    height: 60px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: #f5f5f5;
+    border: none;
+}
+.leav-editor {
+    background-color: #f5f5f5;
+    border: none;
+    width: 100%;
+    height: 130px;
+    border-radius: 5px;
+}
+.leav-editor::-webkit-input-placeholder {
+    color: #6e7673;
+    opacity: 1;
+    padding-left: 20px;
+}
+.leav-editor:-ms-input-placeholder {
+    color: #6e7673;
+    opacity: 1;
+    padding-left: 20px;
+}
+.leav-editor::placeholder {
+    color: #6e7673;
+    opacity: 1;
+    padding-left: 20px;
+}
+.buutton-edit {
+    border: none;
+    background: #f7c35f;
+    padding: 20px 30px;
+    color: #fff;
+    font-family: 'Roboto';
+    font-size: 19px;
+    text-transform: capitalize;
+    font-weight: 500;
+    border-radius: 5px;
+    transition: all .5s ease-in-out;
+}
+.buutton-edit:hover {
+    background-color: #255946;
+    color: #fff;
+    cursor: pointer;
+}
+.leave-message {
+    position: relative;
+    margin: 150px 0px 200px 0px;
+}
+.leav-edit::-webkit-input-placeholder {
+    color: #6e7673;
+    opacity: 1;
+    padding-left: 20px;
+}
+.leav-edit:-ms-input-placeholder {
+    color: #6e7673;
+    opacity: 1;
+    padding-left: 20px;
+}
+.leav-edit::placeholder {
+    color: #6e7673;
+    opacity: 1;
+    padding-left: 20px;
+}
+.leave-column {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.round {
+    position: absolute;
+    bottom: -65px;
+    left: -10px;
+    transform: translate(-50%, -50%);
+    width: 70px;
+    height: 70px;
+    background: #f7c35f;
+    border-radius: 50%;
+}
+
+/*============ Leave us message Css End =============*/
+
+/*=================== Footer Css start ==================*/
+
+.footer {
+    position: relative;
+    background: #255946;
+    padding: 100px 0px 50px 0px;
+}
+.footer::before {
+    content: "";
+    position: absolute;
+    top: -16px;
+    left: 0;
+    width: 100%;
+    height: 16px;
+    background-image: url(../images/ripped-paper-base-2.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+.footer::after {
+    content: "";
+    position: absolute;
+    top: 99%;
+    left: 0;
+    width: 100%;
+    height: 16px;
+    transform: rotate(180deg);
+    background-image: url(../images/ripped-paper-base-2.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    z-index: 9;
+}
+.foot-first img {
+    position: relative;
+    width: 150px;
+    height: auto;
+    object-fit: cover;
+    padding-bottom: 30px;
+}
+.foot-first p {
+    position: relative;
+    margin: 0;
+    font-size: 17px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    color: #fff;
+    padding-bottom: 15px;
+    line-height: 2;
+    color: #b5c3be;
+}
+.emailaddress {
+    position: relative;
+    display: flex;
+    width: auto;
+    align-items: center;
+    justify-content: flex-start;
+}
+.emailaddress input {
+    width: 100%;
+    height: 60px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    background: #fff;
+    font-size: 16px;
+    font-family: 'Roboto';
+    font-weight: 500;
+}
+.emailaddress input::-webkit-input-placeholder {
+    color: #6e7673;
+    opacity: 1;
+    padding-left: 20px;
+}
+.emailaddress input:-ms-input-placeholder {
+    color: #6e7673;
+    opacity: 1;
+    padding-left: 20px;
+}
+.emailaddress input::placeholder {
+    color: #6e7673;
+    opacity: 1;
+    padding-left: 20px;
+}
+.emailaddress i {
+    font-size: 25px;
+    font-family: 'FontAwesome';
+    color: #49a760;
+    background: #fff;
+    padding: 17.5px;
+    border-radius: 0 5px 5px 0;
+}
+.foot-icon {
+    position: relative;
+    padding: 30px 0px;
+    display: flex;
+    justify-content: flex-start;
+    width: auto;
+    align-items: center;
+}
+.foot-icon i {
+    position: relative;
+    margin-right: 30px;
+    font-size: 22px;
+    color: #fff;
+    transition: all .5s ease-in-out;
+}
+.foot-icon i:hover {
+  color: #f7c35f;
+  cursor: pointer;
+}
+.footer-column h4 {
+  position: relative;
+  font-size: 24px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  color: #fff;
+  padding-bottom: 38px;
+}
+.f-list {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.f-list li {
+    position: relative;
+    display: block;
+}
+.f-list li a i {
+    font-size: 18px;
+    margin-right: 10px;
+}
+.f-list li a {
+  text-decoration: none;
+  font-size: 18px;
+  font-family: 'Roboto';
+  font-weight: 400;
+  color: #b5c3be;
+  line-height: 2.5;
+  transition: all .5s ease-in-out;
+}
+.f-list li a:hover {
+  color: #f7c35f;
+  cursor: pointer;
+}
+.foot-second {
+    position: relative;
+    padding-left: 50px;
+}
+.f-wrap img {
+    position: relative;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+.f-wrap span {
+    font-size: 18px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    color: #f7c35f;
+    line-height: 2;
+}
+.f-wrap p {
+    position: relative;
+    font-family: 'Roboto';
+    margin: 0;
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    line-height: 1.5;
+}
+.four-list {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.four-list li {
+    display: block;
+    line-height: 2;
+}
+.four-list li a i {
+    font-size: 16px;
+    margin-right: 10px;
+    color: #f7c35f;
+}
+.four-list li a {
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    color: #b5c3be;
+    line-height: 4;
+    transition: all .5s ease-in-out;
+}
+.four-list li a:hover {
+    color: #f7c35f;
+    cursor: pointer;
+}
+.four-list:before {
+    content: "";
+    position: absolute;
+    top: 34%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    height: .2px;
+    background: #fff;
+}
+.four-list::after {
+    content: "";
+    position: absolute;
+    top: 65%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    height: .2px;
+    background: #fff;
+}
+.copyrigt {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background: #1f4e3d;
+    padding: 30px 0px 20px 0px;
+}
+
+/*============ Footer Css End =============*/
+
+/*============ copytext Css Start =============*/
+
+.copyrigt p {
+    font-size: 16px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    color: #fff;
+}
+
+/*============ sildebutton Css Start =============*/
+
+#topBtn {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    background-color: #f7c35f;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 50%;
+    display: none;
+    z-index: 99;
+}
+
+
+/*===================================== Home Page Responsive Css Start =====================================*/
+
+
+@media (min-width:1440px) and (max-width:1600px) {
+
+  /*========= testimonials responsive css start =========*/
+
+  .testimonials::before {
+    top: -12px;
+  }
+
+  /*====== footer rsponsive css start  ======*/
+
+  .footer::before {
+    top: -12px;
+  }
+}
+
+
+@media (min-width:1200px) and (max-width:1439px) {
+
+    /*========== Acount bar responsive css start ==========*/
+
+    .acount a {
+      font-size: 12px;
+    }
+    .timer i {
+      font-size: 12px;
+    }
+    .acount p {
+      font-size: 12px;
+    }
+    .acount-icon i {
+      font-size: 14px;
+    }
+
+    /*============ Banner portaion responsive css ==============*/
+
+    .banner-contant h1 {
+      font-size: 70px;
+      line-height: 1.2;
+      padding: 15px 0;
+    }
+
+    /*============= Better Agriculture responsive css ==============*/
+
+    .agr-feture {
+      padding: 0 25px!important;
+    }
+    .Welcome-para {
+      line-height: 3;
+    }
+    .agr-feture h2 {
+      padding-bottom: 15px;
+    }
+    .agr-feture h4 {
+      padding-right: 0;
+      padding-bottom: 10px;
+    }
+    .better-para {
+      padding-right: 100px;
+      line-height: 1.5;
+    }
+    .bottom-aparment {
+      margin: 20px 0;
+    }
+
+    /*============ Offering portaion responsive css ===========*/
+
+    .offering-title h1 {
+      padding-bottom: 0;
+    }
+    .offering {
+      padding: 70px 0 50px 0;
+    }
+    .off-contant p {
+      padding: 0 50px;
+    }
+
+    /*=========== High Quality Products responsive css ============*/
+
+    .product h2 {
+      font-size: 48px;
+      padding: 120px 50px 0 0;
+    }
+    .high-last img {
+      margin-top: 96px;
+    }
+
+    /*============== Testimonials responsive css ===============*/
+
+    .testimonials {
+      padding: 60px 0 100px 0;
+    }
+    .slide-para p {
+      font-size: 20px;
+      padding: 0 185px;
+    }
+
+    /*=============== Latest News responsive css ===============*/
+
+    .news-super {
+      margin: 60px 0 0 0;
+    }
+
+    /*============== Leave us message responsive css ===============*/
+
+    .leave-message {
+      margin: 120px 0px 100px 0px;
+    }
+
+    /*================= Footer responsive css =================*/
+
+    .four-list:before {
+      top: 32.5%;
+    }
+    .four-list::after {
+      top: 65%;
+    }
+    .f-wrap {
+      margin-bottom: 20px;
+    }
+    .f-wrap span {
+      line-height: 0;
+    }
+    .f-wrap p {
+      font-size: 15px;
+    }
+    .four-list li a {
+      font-size: 15px;
+    }
+    .f-list li a {
+      font-size: 15px;
+    }
+    .foot-first p {
+      font-size: 15px;
+    }
+    .footer-column h4 {
+      font-size: 22px;
+      padding-bottom: 30px;
+    }
+    .foot-first img {
+      padding-bottom: 20px;
+    }
+    .emailaddress i {
+      padding: 12.5px;
+    }
+    .emailaddress input {
+      height: 50px;
+    }
+    .foot-icon i {
+      font-size: 20px;
+    }
+    .footer {
+      padding: 80px 0 30px 0;
+    }
+}
+
+@media (min-width:992px) and (max-width:1199px) {
+
+  /*========== Acount bar responsive css start ==========*/
+
+  .acount a {
+    font-size: 12px;
+  }
+  .timer i {
+    font-size: 12px;
+  }
+  .acount p {
+    font-size: 12px;
+  }
+  .acount-icon i {
+    font-size: 14px;
+  }
+
+  /*============ Banner portaion responsive css ==============*/
+
+  .banner-contant h1 {
+    font-size: 48px;
+    line-height: 1.2;
+    padding: 5px 0;
+  }
+  .banner-contant {
+    left: 35%;
+  }
+  .discover-btn {
+    margin-top: 30px;
+  }
+  .banner-contant p {
+    font-size: 18px;
+  }
+  .discover-btn a {
+    font-size: 16px;
+    padding: 20px 25px;
+  }
+  #farmerbanner .owl-dots .owl-dot {
+    width: 12px;
+    height: 12px;
+  }
+
+  /*============= Better Agriculture responsive css ==============*/
+
+  .up-img h3 {
+    font-size: 20px;
+  }
+  .agr-feture {
+    padding: 0 25px!important;
+  }
+  .Welcome-para {
+    line-height: 1.5;
+  }
+  .agr-feture h2 {
+    padding-bottom: 15px;
+  }
+  .agr-feture h4 {
+    padding-right: 0;
+    padding-bottom: 10px;
+    font-size: 22px;
+  }
+  .better-para {
+    padding-right: 35px;
+    line-height: 1.5;
+  }
+  .bottom-aparment {
+    margin: 20px 0;
+  }
+  .agr-feture h2 {
+    font-size: 36px;
+  }
+  .loader {
+    width: 25px;
+    margin-right: 10px;
+  }
+
+  /*============ Offering portaion responsive css ===========*/
+
+  .offering-title h1 {
+    padding-bottom: 0;
+    font-size: 36px;
+  }
+  .offering {
+    padding: 70px 0 50px 0;
+  }
+  .off-contant p {
+    padding: 0 30px;
+  }
+  .offering-title p {
+    line-height: 3;
+  }
+  .fa-tractor {
+    font-size: 28px;
+  }
+  .fa-coffee {
+    font-size: 28px!important;
+  }
+  .fa-carrot {
+    font-size: 27px!important;
+  }
+  .fa-cutlery {
+    font-size: 26px!important;
+  }
+  .off-contant h4 {
+    font-size: 22px;
+  }
+
+  /*========== Latest project responsive css ===========*/
+
+  .latest-title p {
+    line-height: 3;
+  }
+  .latest-title h1 {
+    font-size: 36px;
+  }
+  .latest-project {
+    padding: 90px 0px 100px 0px;
+  }
+  #letest .owl-dots .owl-dot {
+    width: 12px;
+    height: 12px;
+  }
+
+  /*=========== High Quality Products responsive css ============*/
+
+  .product h2 {
+    font-size: 36px;
+    padding: 88px 0 0 0;
+  }
+  .high-last img {
+    margin-top: 80px;
+  }
+  .high-btn a {
+    font-size: 16px;
+    padding: 20px 25px;
+  }
+
+  /*============== Testimonials responsive css ===============*/
+
+  .testimonials {
+    padding: 60px 0 100px 0;
+  }
+  .slide-para p {
+    font-size: 16px;
+    padding: 0 185px;
+  }
+  .testimonials-title h4 {
+    font-size: 16px;
+  }
+  .clint-img img {
+    width: 70px!important;
+    height: 70px!important;
+  }
+  .clint-img {
+    padding: 12px 0;
+  }
+  .clint-name p {
+    font-size: 18px;
+  }
+  .clint-name span {
+    font-size: 14px;
+  }
+
+  /*=============== Latest News responsive css ===============*/
+
+  .news-title h1 {
+    font-size: 36px;
+  }
+  .news-super {
+    margin: 60px 0 0 0;
+  }
+  .news-title p {
+    font-size: 18px;
+    padding: 40px 0 0 0;
+  }
+  .news-date span {
+    padding: 10px 20px;
+    font-size: 15px;
+  }
+  .news-sub h3 {
+    font-size: 22px;
+  }
+  .grow-contant h2 {
+    font-size: 24px;
+  }
+  .grow-contant p {
+    font-size: 16px;
+  }
+  .grow-right::before {
+    width: 112px;
+    left: -40px;
+  }
+  .growth {
+    padding: 50px 0 0 0;
+  }
+  .latest-news {
+    padding: 100px 0 0 0;
+  }
+
+  /*============== Leave us message responsive css ===============*/
+
+  .leave-message {
+    margin: 120px 0px 80px 0px;
+  }
+  .leav-contant span{
+    line-height: 2;
+  }
+  .leav-contant h2 {
+    font-size: 36px;
+    padding-bottom: 20px;
+  }
+  .leav-contant p {
+    font-size: 16px;
+  }
+  .round {
+    width: 45px;
+    height: 45px;
+    left: 0;
+    bottom: 0;
+  }
+  .leave-img:before {
+    width: 100px;
+    height: 100px;
+    left: 0;
+    top: -34px;
+  }
+  .leav-edit {
+    height: 50px;
+  }
+  .leav-editor {
+    height: 100px;
+  }
+  .buutton-edit {
+    font-size: 16px;
+    padding: 15px 20px;
+  }
+  /*================= Footer responsive css =================*/
+
+  .four-list:before {
+    top: 24.5%;
+  }
+  .four-list::after {
+    top: 50%;
+  }
+  .f-wrap {
+    margin-bottom: 20px;
+  }
+  .f-wrap span {
+    line-height: 0;
+  }
+  .f-wrap p {
+    font-size: 15px;
+  }
+  .four-list li a {
+    font-size: 15px;
+  }
+  .f-list li a {
+    font-size: 15px;
+  }
+  .foot-first p {
+    font-size: 15px;
+  }
+  .footer-column h4 {
+    font-size: 22px;
+    padding-bottom: 30px;
+  }
+  .foot-first img {
+    padding-bottom: 20px;
+  }
+  .emailaddress i {
+    padding: 12.5px;
+  }
+  .emailaddress input {
+    height: 50px;
+  }
+  .foot-icon i {
+    font-size: 20px;
+  }
+  .footer {
+    padding: 80px 0 30px 0;
+  }
+}
+
+@media only screen and (max-width:991px) {
+
+    /*========== Acount bar responsive css start ==========*/
+
+    .acount a {
+      font-size: 12px;
+    }
+    .timer i {
+      font-size: 12px;
+    }
+    .acount p {
+      font-size: 12px;
+    }
+    .acount-icon i {
+      font-size: 14px;
+    }
+    .btn-rx {
+      display: none;
+    }
+
+    /*============ Banner portaion responsive css ==============*/
+
+    .banner-contant h1 {
+      font-size: 48px;
+      line-height: 1.2;
+      padding: 5px 0;
+    }
+    .banner-contant {
+      left: 35%;
+    }
+    .discover-btn {
+      margin-top: 30px;
+    }
+    .banner-contant p {
+      font-size: 18px;
+    }
+    .discover-btn a {
+      font-size: 16px;
+      padding: 15px 20px;
+    }
+    #farmerbanner .owl-dots .owl-dot {
+      width: 12px;
+      height: 12px;
+    }
+
+    /*============= Better Agriculture responsive css ==============*/
+
+    .up-img h3 {
+      font-size: 16px;
+    }
+    .agr-feture {
+      padding: 0 25px!important;
+    }
+    .Welcome-para {
+      line-height: 1.5;
+    }
+    .agr-feture h2 {
+      padding-bottom: 15px;
+    }
+    .agr-feture h4 {
+      padding-right: 0;
+      padding-bottom: 10px;
+      font-size: 22px;
+    }
+    .better-para {
+      padding-right: 35px;
+      line-height: 1.5;
+    }
+    .bottom-aparment {
+      margin: 20px 0;
+    }
+    .agr-feture h2 {
+      font-size: 36px;
+    }
+    .loader {
+      width: 25px;
+      margin-right: 10px;
+    }
+    .better-btn a {
+      padding: 15px 20px;
+    }
+
+    /*============ Offering portaion responsive css ===========*/
+
+    .offering-title h1 {
+      padding-bottom: 0;
+      font-size: 36px;
+    }
+    .offering {
+      padding: 70px 0 50px 0;
+    }
+    .off-contant p {
+      padding: 0 30px;
+    }
+    .offering-title p {
+      line-height: 3;
+    }
+    .fa-tractor {
+      font-size: 28px;
+    }
+    .fa-coffee {
+      font-size: 28px!important;
+    }
+    .fa-carrot {
+      font-size: 27px!important;
+    }
+    .fa-cutlery {
+      font-size: 26px!important;
+    }
+    .off-contant h4 {
+      font-size: 22px;
+    }
+    .off-icon {
+      margin-top: -12%;
+    }
+
+    /*========== Latest project responsive css ===========*/
+
+    .latest-title p {
+      line-height: 3;
+    }
+    .latest-title h1 {
+      font-size: 36px;
+    }
+    .latest-project {
+      padding: 90px 0px 100px 0px;
+    }
+    #letest .owl-dots .owl-dot {
+      width: 12px;
+      height: 12px;
+    }
+
+    /*=========== High Quality Products responsive css ============*/
+
+    .product h2 {
+      font-size: 36px;
+      padding: 0 0 0 0;
+    }
+    .high-last img {
+      margin-top: 80px;
+    }
+    .high-btn a {
+      font-size: 16px;
+      padding: 15px 20px;
+    }
+
+    /*============== Testimonials responsive css ===============*/
+
+    .testimonials {
+      padding: 60px 0 70px 0;
+    }
+    .slide-para p {
+      font-size: 16px;
+      padding: 0 50px;
+    }
+    .slide-icon i {
+      font-size: 20px;
+      line-height: 3;
+    }
+    .testimonials-title h4 {
+      font-size: 16px;
+    }
+    .clint-img img {
+      width: 70px!important;
+      height: 70px!important;
+    }
+    .clint-img {
+      padding: 12px 0;
+    }
+    .clint-name p {
+      font-size: 18px;
+    }
+    .clint-name span {
+      font-size: 14px;
+    }
+    .testimonials::before {
+      top: -12px;
+    }
+    #testimonials-slider .owl-dots .owl-dot {
+      width: 10px;
+      height: 10px;
+    }
+
+    /*=============== Latest News responsive css ===============*/
+
+    .news-date {
+      margin-top: -6%;
+    }
+    .news-title h1 {
+      font-size: 36px;
+    }
+    .news-super {
+      margin: 60px 0 0 0;
+    }
+    .news-title p {
+      font-size: 18px;
+      padding: 40px 0 0 0;
+    }
+    .news-date span {
+      padding: 10px 20px;
+      font-size: 15px;
+    }
+    .news-sub h3 {
+      font-size: 22px;
+    }
+    .grow-contant h2 {
+      font-size: 24px;
+    }
+    .grow-contant p {
+      font-size: 16px;
+    }
+    .grow-right::before {
+      width: 262px;
+      left: -70px;
+      height: 20px;
+    }
+    .growth {
+      padding: 50px 0 0 0;
+    }
+    .latest-news {
+      padding: 100px 0 0 0;
+    }
+
+    /*============== Leave us message responsive css ===============*/
+
+    .leave-message {
+      margin: 120px 0px 80px 0px;
+    }
+    .leav-contant span{
+      line-height: 2;
+    }
+    .leav-contant h2 {
+      font-size: 36px;
+      padding-bottom: 20px;
+    }
+    .leav-contant p {
+      font-size: 16px;
+    }
+    .round {
+      width: 70px;
+      height: 70px;
+      left: 60px;
+      bottom: -50px;
+    }
+    .leave-img:before {
+      width: 130px;
+      height: 130px;
+      left: 16px;
+      top: -35px;
+    }
+    .leav-edit {
+      height: 50px;
+    }
+    .leav-editor {
+      height: 100px;
+    }
+    .buutton-edit {
+      font-size: 16px;
+      padding: 15px 20px;
+    }
+    /*================= Footer responsive css =================*/
+
+    .four-list:before {
+      top: 32.5%;
+    }
+    .four-list::after {
+      top: 65%;
+    }
+    .f-wrap {
+      margin-bottom: 20px;
+    }
+    .f-wrap span {
+      line-height: 0;
+    }
+    .f-wrap p {
+      font-size: 15px;
+    }
+    .four-list li a {
+      font-size: 15px;
+    }
+    .f-list li a {
+      font-size: 15px;
+    }
+    .foot-first p {
+      font-size: 15px;
+    }
+    .footer-column h4 {
+      font-size: 22px;
+      padding-bottom: 30px;
+    }
+    .foot-first img {
+      padding-bottom: 20px;
+    }
+    .emailaddress i {
+      padding: 12.5px;
+    }
+    .emailaddress input {
+      height: 50px;
+    }
+    .foot-icon i {
+      font-size: 20px;
+    }
+    .footer {
+      padding: 80px 0 30px 0;
+    }
+    .footer::before {
+      top: -12px;
+    }
+}
+
+@media only screen and (max-width:850px) {
+
+  .banner-contant h1 {
+    font-size: 36px;
+    line-height: 1.2;
+    padding: 5px 0;
+  }
+  .banner-contant p {
+    font-size: 16px;
+  }
+  .f-wrap img {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width:749px) {
+
+  .acount {
+    margin-bottom: 5px;
+  }
+  .discover-btn a {
+    font-size: 15px;
+    padding: 10px 15px;
+  }
+  .up-img {
+    width: calc(55% - 40px);
+  }
+  .up-img h3 {
+    font-size: 22px;
+  }
+  .off-icon {
+    margin-top: -8%;
+  }
+  .news-date {
+    margin-top: -7%;
+  }
+  .grow-right::before {
+    width: 192px;
+    left: -50px;
+    height: 20px;
+  }
+.f-wrap img {
+    width: 58%;
+  }
+}
+
+@media only screen and (max-width:575px) {
+
+  .banner-contant p |{
+    font-size: 13px;
+  }
+  .banner-contant h1 {
+    font-size: 24px;
+  }
+  .discover-btn {
+    margin-top: 10px;
+  }
+  .discover-btn a {
+    font-size: 14px;
+    padding: 8px 10px;
+  }
+  #farmerbanner .owl-dots .owl-dot {
+    width: 10px;
+    height: 10px;
+  }
+  .Welcome-para {
+    font-size: 14px;
+  }
+  .loader  {
+    width: 20px;
+  }
+  .agr-feture h2 {
+    font-size: 30px;
+  }
+  .agr-feture h4 {
+    font-size: 18px;
+  }
+  .better-para {
+    font-size: 14px;
+  }
+  .farmer-log p {
+    font-size: 18px;
+  }
+  .farmer-log i {
+    font-size: 40px;
+  }
+  .better-btn {
+    margin-top: 30px;
+  }
+  .better-btn a {
+    padding: 10px 15px;
+  }
+  .offering-title p {
+    font-size: 14px;
+  }
+  .offering-title h1 {
+    font-size: 28px;
+  }
+  .product h2 {
+    font-size: 28px;
+  }
+  .high-btn a {
+    font-size: 14px;
+    padding: 10px 15px;
+  }
+  .high-btn a {
+    font-size: 15px;
+    padding: 0 65px;
+  }
+  .testimonials-title h4 {
+    left: -4%;
+  }
+  .news-title span {
+    font-size: 14px;
+  }
+  .news-title h1 {
+    font-size: 28px;
+  }
+  .latest-news {
+    padding: 70px 0 0 0;
+  }
+  .news-title p {
+    font-size: 14px;
+    padding-top: 20px;
+  }
+  .news-btn a {
+    font-size: 14px;
+    padding: 10px 15px;
+  }
+  .grow-img i {
+    font-size: 40px;
+  }
+  .growth {
+    padding: 0 0 0 0;
+  }
+  .leav-contant span {
+    font-size: 14px;
+  }
+  .leav-contant img {
+    width: 25px;
+    height: 25px;
+  }
+  .leav-contant h2 {
+    font-size: 28px;
+    padding-bottom: 10px;
+  }
+  .leav-contant p {
+    font-size: 14px;
+  }
+  .buutton-edit {
+    font-size: 14px;
+    padding: 10px 15px;
+  }
+}
+
+@media only screen and (max-width:479px) {
+
+  .banner-contant p {
+    display: none;
+  }
+  .up-img h3 {
+    font-size: 18px;
+  }
+  .banner-contant h1 {
+    font-size: 24px;
+  }
+  .discover-btn {
+    margin-top: 10px;
+  }
+  .discover-btn a {
+    font-size: 14px;
+    padding: 8px 10px;
+  }
+  #farmerbanner .owl-dots .owl-dot {
+    width: 10px;
+    height: 10px;
+  }
+  .Welcome-para {
+    font-size: 14px;
+  }
+  .loader  {
+    width: 20px;
+  }
+  .agr-feture h2 {
+    font-size: 30px;
+  }
+  .agr-feture h4 {
+    font-size: 18px;
+  }
+  .better-para {
+    font-size: 14px;
+  }
+  .farmer-log p {
+    font-size: 18px;
+  }
+  .farmer-log i {
+    font-size: 40px;
+  }
+  .better-btn {
+    margin-top: 30px;
+  }
+  .better-btn a {
+    padding: 10px 15px;
+  }
+  .offering-title p {
+    font-size: 14px;
+  }
+  .offering-title h1 {
+    font-size: 28px;
+  }
+  .product h2 {
+    font-size: 28px;
+  }
+  .high-btn a {
+    font-size: 14px;
+    padding: 10px 10px;
+  }
+  .testimonials-title h4 {
+    left: -4%;
+    font-size: 15px;
+  }
+  .news-title span {
+    font-size: 14px;
+  }
+  .news-title h1 {
+    font-size: 28px;
+  }
+  .latest-news {
+    padding: 70px 0 0 0;
+  }
+  .news-title p {
+    font-size: 14px;
+    padding-top: 20px;
+  }
+  .news-btn a {
+    font-size: 14px;
+    padding: 10px 15px;
+  }
+  .grow-img i {
+    font-size: 40px;
+  }
+  .growth {
+    padding: 0 0 0 0;
+  }
+  .leav-contant span {
+    font-size: 14px;
+  }
+  .leav-contant img {
+    width: 25px;
+    height: 25px;
+  }
+  .leav-contant h2 {
+    font-size: 28px;
+    padding-bottom: 10px;
+  }
+  .leav-contant p {
+    font-size: 14px;
+  }
+  .buutton-edit {
+    font-size: 14px;
+    padding: 10px 15px;
+  }
+  .slide-para p {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 390px){
+
+  .grow-contant p {
+    font-size: 14px!important;
+  }
+  .grow-contant h2 {
+    font-size: 17px;
+  }
+  .grow-img i {
+    font-size: 25px;
+  }
+  .grow-right::before {
+    width: 135px;
+    left: -38px;
+    height: 16px;
+  }
+  .round {
+    width: 50px;
+    height: 50px;
+    left: 60px;
+    bottom: -50px;
+  }
+  .foot-icon i {
+    font-size: 14px;
+  }
+  .logo {
+    position: relative;
+    width: 100%;
+    height: 35px;
+    object-fit: cover;
+    }
+    .latest-title h1 {
+    font-size: 28px;
+    }
+    .foot-first img {
+    position: relative;
+    width: 100px;
+    height: auto;
+    object-fit: cover;
+    padding-bottom: 30px;
+    }
+}
+
+@media only screen and (max-width:320px) {
+
+  .banner-contant h1 {
+    font-size: 20px;
+  }
+  .discover-btn {
+    display: none;
+  }
+  #farmerbanner .owl-dots .owl-dot {
+    width: 8px;
+    height: 8px;
+  }
+  #farmerbanner .owl-dots {
+    transform: translatey(-140%);
+  }
+  .up-img h3 {
+    font-size: 16px;
+  }
+  .up-img {
+    width: calc(68% - 40px);
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .agr-feture h2 {
+    font-size: 24px;
+  }
+  .farmer-log p {
+    font-size: 14px;
+  }
+  .farmer-log i {
+    font-size: 30px;
+  }
+  .offering-title h1 {
+    font-size: 24px;
+  }
+  .off-icon {
+    margin-top: -13%;
+  }
+  .off-contant h4 {
+    font-size: 18px;
+  }
+  .off-contant p {
+    font-size: 14px;
+    padding: 0 20px;
+  }
+  .latest-title p {
+    font-size: 14px;
+  }
+  .latest-title h1 {
+    font-size: 24px;
+  }
+  .product h2 {
+    font-size: 24px;
+  }
+  .high-last img {
+    margin-top: 52px;
+  }
+  .slide-para p {
+    font-size: 14px;
+    padding: 0 0;
+  }
+  .testimonials-title h4 {
+    transform: translateY(-50%) rotate(360deg);
+    left: 30%;
+    top: 8%;
+  }
+  #testimonials-slider .owl-dots {
+    position: absolute;
+    top: 108%;
+    right: 40%;
+    transform: translateY(-50%) rotate(360deg);
+  }
+  .news-title h1 {
+    font-size: 24px;
+  }
+  .news-title p {
+    font-size: 14px;
+    padding-top: 10px;
+  }
+  .news-date {
+    margin-top: -12%;
+  }
+  .news-date span {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+  .news-icon ul li {
+    display: inline-block;
+    margin: 10px;
+    font-size: 14px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    color: #6e7673;
+  }
+  .grow-img i {
+    font-size: 18px;
+  }
+  .grow-right::before {
+    width: 110px;
+    left: -32px;
+    height: 16px;
+  }
+  .leave-img:after {
+    content: "";
+    position: absolute;
+    top: -29px;
+    left: -9px;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: #e9e9e9;
+    border-radius: 50%;
+  }
+  .leave-img:before {
+    width: 120px;
+    height: 120px;
+    left: 42px;
+    top: -35px;
+   }
+   .round {
+    width: 40px;
+    height: 40px;
+    left: 60px;
+    bottom: -50px;
+  }
+  .leav-contant h2 {
+    font-size: 24px;
+    padding-bottom: 10px;
+  }
+  .footer-column {
+    margin-bottom: 30px;
+  }
+  .foot-second {
+    position: relative;
+    padding-left: 0px;
+  }
+}
